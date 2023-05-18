@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+        
+        @font-face {
+            font-family: "nice";
+            src: url(fontes/nice_sugar/Nice\ Sugar.ttf) format("truetype"), url(fontes/nice_sugar/Nice\ Sugar.otf) format("opentype");
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            font-size: 32px;
+            font-weight: bold;
+            font-style: italic;
+
+        }
+
+        h1 {
+            font: normal 48px nice;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis in, accusantium doloribus minima vitae nam doloremque sit accusamus error veritatis mollitia, obcaecati aut iure ipsum, ullam distinctio ad debitis soluta?</p>
+    
+</body>
+</html>

@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+h1#principal {
+    font-size: 48px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+
+.secundario {
+    background-color: green;
+    color: white;
+}
+
+.basico {
+    background-color: yellow;
+    font-size: 22px;
+}
+
+.intermediario {
+    background-color: blueviolet;
+}
+
+.avancado {
+    background-color: rgb(240, 61, 61);
+}
+
+p {
+    background-color: black;
+    color: white;
+}
